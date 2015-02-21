@@ -1,9 +1,10 @@
 package com.twilio;
-export PATH=/opt/maven/bin:${PATH};
+
+import java.io.IOException;
+
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
  
 // This will print "Hello World" to the screen,
 // so we can test that we have everything working
